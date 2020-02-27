@@ -1,0 +1,58 @@
+.jumbotron {
+  background: rgba(129, 42, 42, 0.794);
+  color: aliceblue;
+  position: relative;
+  left: 0;
+  top: 50px;
+}
+
+.breadcrumb {
+  margin-top: 1rem;
+}
+.row-content {
+  height: 100%;
+  margin: 10rem 1rem;
+  /* padding: 0 1rem; */
+  /* font-style: italic; */
+  line-height: 2rem;
+}
+nav {
+  background: rgb(68, 14, 23);
+  margin: 0 auto 5rem auto;
+  color: #fff;
+}
+.footer {
+  background: rgba(129, 42, 42, 0.794);
+  color: aliceblue;
+  padding: 1rem;
+}
+#Reserve {
+  justify-content: center;
+  align-items: center;
+}
+.modal-header {
+  background: #61203b;
+}
+.rs {
+  background: #f8b6d2;
+}
+.carousel {
+  background: #61203b;
+  top: 50px;
+}
+.carousel-item {
+  height: 300px;
+}
+.carousel-item img {
+  position: absolute;
+  left: 0;
+  min-height: 300px;
+}
+.modal {
+  position: absolute;
+  top: 100px;
+  margin-top: 100px;
+}
+.rd input {
+  background-color: brown;
+}
