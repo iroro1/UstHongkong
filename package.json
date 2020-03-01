@@ -16,17 +16,36 @@
     "@types/imagemin": "^7.0.0",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
+    "grunt": "^1.0.2",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-sass": "^2.1.0",
+    "grunt-usemin": "^3.1.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-flatmap": "^1.0.2",
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-usemin": "^0.3.29",
-    "lite-server": "^2.3.0"
+    "jit-grunt": "^0.10.0",
+    "lite-server": "^2.3.0",
+    "time-grunt": "^1.4.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
   }
 }
