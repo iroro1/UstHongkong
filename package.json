@@ -1,24 +1,32 @@
 {
-  "name": "conFusion",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "@types/imagemin": "^7.0.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.29",
+    "lite-server": "^2.3.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.1"
+    "bootstrap": "^4.4.1"
   }
 }
